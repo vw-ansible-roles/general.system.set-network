@@ -1,0 +1,5 @@
+---
+# defaults file for set-network
+set_network_dhcpcd_conf_path: "/etc/dhcpcd.conf"
+set_network_netplan_conf_path: "/etc/netplan/config.yaml"
+set_network_interfaces_path: "/etc/network/interfaces"

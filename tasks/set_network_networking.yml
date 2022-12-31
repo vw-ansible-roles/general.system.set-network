@@ -1,0 +1,8 @@
+---
+- name: Edit interfaces configuration
+  template:
+    src: set_network_interfaces
+    dest: "{{ set_network_interfaces_path }}"
+    owner: root
+    group: root
+    mode: 0644
